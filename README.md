@@ -1,19 +1,19 @@
 # Visual Studio Code setup for Ruby development
 
 ## **Code completion**
-### Ruby Solargraph
+### [Ruby Solargraph](https://github.com/castwide/vscode-solargraph)
 1. Install the [Ruby Solargraph extension](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph) 
-2. Install the solargraph gem
+2. Install the `solargraph` gem
 
     ```ruby
     gem install solargraph
     ```
-### Endwise
+### [Endwise](https://github.com/kaiwood/vscode-endwise)
 1. Install the [endwise extension](https://marketplace.visualstudio.com/items?itemName=kaiwood.endwise)
 
 ## **Go to definition**
 For this to work properly, you first need the above mentioned Ruby Solargraph extension and gem.
-### Ruby
+### [Ruby](https://github.com/rubyide/vscode-ruby)
 1. Install the [Ruby extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby). 
 2. Configure the following setting on VSCode
 
@@ -21,19 +21,23 @@ For this to work properly, you first need the above mentioned Ruby Solargraph ex
     "ruby.intellisense": "rubyLocate"
     ```
 ## Debug
-### VSCode rdbg Ruby Debugger 
+### [VSCode rdbg Ruby Debugger](https://github.com/ruby/vscode-rdbg)
 1. Install the [VSCode rdbg Ruby Debugger extension](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) 
-2. Install the debug gem
+2. Install the `debug` gem
 
     ```ruby
     gem install debug
     ```
 
 ## **Lint**
-### Standardrb
+### [Standardrb](https://github.com/testdouble/standard)
 For this to work properly, you need the above mentioned [Ruby extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby).
 
+1. Install the `standard` gem
 
+    ```ruby
+    gem install standard
+    ```
 
 1.  Enable the Ruby language server in your settings
 
